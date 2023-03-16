@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'montseratt', sans-serif;
+    font-family: 'poppins', sans-serif;
+    color: whitesmoke;
 
 }
 
@@ -16,18 +17,38 @@ body {
 .ch2 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .cd {
     text-align: center;
 }
 
+
+
 .child3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
+.child2 {
+    margin-left: 3%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey {
+    background-color: black;
+}
+
+
+
+
 
 #fb {
     border-radius: 50%;
@@ -53,6 +74,11 @@ body {
 
 #fs {
     margin-right: 10%;
+    width: 300px;
+    height: 250px;
+    border-color: rgb(235, 20, 91);
+    margin-left: 33rem;
+
 
 }
 
@@ -65,10 +91,6 @@ body {
 h2 {
     text-align: center;
 }
-
-
-
-
 
 #js {
     width: 100px;
@@ -91,7 +113,11 @@ h2 {
     background-position: center;
     background-size: cover;
     height: 100vh;
+
+
 }
+
+
 
 .nav li {
     display: inline-block;
@@ -112,12 +138,17 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
     font-family: arial;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 20, 91);
+
 
 }
 
 #img {
     border-radius: 50%;
     margin-right: 5%;
+    border: 3px solid rgb(235, 20, 91);
 }
 
 
@@ -125,19 +156,131 @@ h2 {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 20, 91);
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 20, 91);
+
 }
 
 .parent {
+    margin-top: 10rem;
+    margin-bottom: 0px;
     display: flex;
     justify-items: center;
     justify-content: space-evenly;
+    color: whitesmoke;
+
 }
 
 .button {
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+.cont {
+    width: 20rem;
+    background-color: whitesmoke;
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+
+
+}
+
+b {
+    background-color: #0bceaf;
+}
+
+.inte {
+    display: flex;
+    flex-direction: column;
+}
+
+.in {
+    margin-right: 8%;
+}
+
+
+.parent2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.row1 {
+    margin-left: 6%;
+}
+
+.sk {
+    margin-left: 5%;
+}
+
+.exp {
+    margin-left: 8rem;
+}
+
+.WE {
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    margin-right: 10rem;
+}
+
+.item2 {
+    margin-right: 10rem;
+}
+
+
+
+.HTML {
+    width: 90%;
+    background-color: rgb(235, 20, 91);
+
+
+}
+
+.CSS {
+    width: 60%;
+    background-color: rgb(235, 20, 91);
+
+
+}
+
+
+.Scratch {
+    width: 80%;
+    background-color: rgb(235, 20, 91);
+
+
+}
+
+.AdobeInDesign {
+    width: 60%;
+    background-color: rgb(235, 20, 91);
+}
+
+.AdobeIllustrator {
+    width: 40%;
+    background-color: rgb(235, 20, 91);
+
+}
+
+
 
 @media(max-width:1215px) {}
 
@@ -163,15 +306,29 @@ h1 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin-bottom: 15rem;
     }
 
     .chi1 {
         margin-left: 8%;
+
     }
 
     .img {
         border-radius: 50%;
     }
+
+    h1 {
+        font-size: small;
+    }
+
+    .child3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
 
 
 }
