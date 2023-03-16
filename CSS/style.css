@@ -42,9 +42,7 @@ body {
     justify-content: center;
 }
 
-.grey {
-    background-color: black;
-}
+
 
 
 
@@ -113,6 +111,7 @@ h2 {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 
 
 }
@@ -123,12 +122,15 @@ h2 {
     display: inline-block;
     text-align: right;
 
+
+
 }
 
 .nav ul {
     margin: 0;
     padding: 0;
     text-align: right;
+
 }
 
 .nav a {
@@ -143,7 +145,10 @@ h2 {
     text-decoration-color: rgb(235, 20, 91);
 
 
+
 }
+
+
 
 .nav a:hover {
     background-color: rgb(235, 20, 91);
@@ -190,12 +195,49 @@ section {
     margin-top: -20px;
 }
 
+.section-image {
+    background: rgba(0, 0, 0, 0.8) url(../images/tall-building.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.child3 {
+    background-color: black;
+
+}
+
+.winterests {
+    background-color: black;
+}
+
 .button {
     margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.footer-image {
+    background: rgba(0, 0, 0, 0.8) url(../images/tall-building.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+
+footer {
+    margin-top: -20px;
 }
 
 .cont {
@@ -209,22 +251,9 @@ section {
     padding-top: 5px;
     padding-bottom: 5px;
     height: 20px;
-
-
 }
 
-b {
-    background-color: #0bceaf;
-}
 
-.inte {
-    display: flex;
-    flex-direction: column;
-}
-
-.in {
-    margin-right: 8%;
-}
 
 #btn {
     background-color: rgb(235, 20, 91);
@@ -400,11 +429,6 @@ b {
 @media(max-width:1024px) {}
 
 @media(max-width:768px) {
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
 
     .winterests {
         display: flex;
@@ -412,14 +436,34 @@ b {
         justify-content: center;
         align-items: center;
     }
+
+    .parent2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
 }
 
 
 @media(max-width:550px) {
+
     .container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .parent2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #fs {
+        text-align: center;
     }
 
     .winterests {
@@ -433,7 +477,6 @@ b {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin-bottom: 15rem;
     }
 
     .chi1 {
@@ -456,9 +499,6 @@ b {
 
     }
 
-    .fs {
-        margin-right: 30rem;
-    }
 
 
 
