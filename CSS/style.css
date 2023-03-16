@@ -145,6 +145,10 @@ h2 {
 
 }
 
+.nav a:hover {
+    background-color: rgb(235, 20, 91);
+}
+
 #img {
     border-radius: 50%;
     margin-right: 5%;
@@ -166,6 +170,12 @@ h2 {
 
 }
 
+.container {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(235, 20, 91);
+}
+
 .parent {
     margin-top: 10rem;
     margin-bottom: 0px;
@@ -174,6 +184,10 @@ h2 {
     justify-content: space-evenly;
     color: whitesmoke;
 
+}
+
+section {
+    margin-top: -20px;
 }
 
 .button {
@@ -212,16 +226,50 @@ b {
     margin-right: 8%;
 }
 
+#btn {
+    background-color: rgb(235, 20, 91);
+    color: whitesmoke;
+
+}
+
+#btn a {
+    color: whitesmoke;
+}
+
 
 .parent2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-between;
 
 
 }
 
+.winterests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coll2 {
+    margin-right: 3rem;
+}
+
+.coll1 {
+    margin-left: 3rem;
+}
+
+.sk2 {
+    margin-left: 10rem;
+}
+
+.row3 {
+    margin-left: 2rem;
+}
+
 .row1 {
-    margin-left: 6%;
+    margin-left: 3%;
+    margin-right: 2rem;
 }
 
 .sk {
@@ -280,6 +328,71 @@ b {
 
 }
 
+.AdobePhotoShop {
+    width: 40%;
+    background-color: rgb(235, 20, 91);
+}
+
+#git:hover {
+    animation-name: gitAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes gitAnimation {
+    0% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+#twitter:hover {
+    animation-name: twitterAnime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes twitterAnime {
+    0% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+#fb:hover {
+    animation-name: fbAnime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes fbAnime {
+    0% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+
+
 
 
 @media(max-width:1215px) {}
@@ -292,6 +405,13 @@ b {
         flex-direction: column-reverse;
         justify-content: center;
     }
+
+    .winterests {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -299,6 +419,13 @@ b {
     .container {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .winterests {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -327,6 +454,10 @@ b {
         flex-direction: column;
         justify-content: center;
 
+    }
+
+    .fs {
+        margin-right: 30rem;
     }
 
 
